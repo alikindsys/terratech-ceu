@@ -141,10 +141,6 @@ hash = "18a1548719ea6a9f8e91c9a38427879c27f19caf11a0527e75565f82a5430272"
 metafile = true
 
 [[files]]
-file = "mods/cccbridge-mc1.20.1-forge-1.6.3.jar"
-hash = "d2ba248bf55eec0ddb4dcf66d901265e7d83f9601b67aec4487418b096f47181"
-
-[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "10bad34cd442b0778127d10ccd214768ae12741f4c0725eccb4f606f2298ba25"
 metafile = true
@@ -532,6 +528,11 @@ metafile = true
 [[files]]
 file = "mods/mekanism-additions.pw.toml"
 hash = "6595e106065ed61341ffb94c3e7b9bed8d9b16e18addd2ced97e8da927456bf3"
+metafile = true
+
+[[files]]
+file = "mods/mekanism-explosives.pw.toml"
+hash = "d1995ea481f7cdf437fd871e2f37a8d2d09932b15fb9a3096855a387679cbd93"
 metafile = true
 
 [[files]]
