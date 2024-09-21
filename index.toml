@@ -1,6 +1,62 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/biomesoplenty/biome_toggles.json"
+hash = "88d8708b209f8b95c48a7dc9b2302721aa1ae0033f8d0e4567fb9d04fa776abd"
+
+[[files]]
+file = "config/create-client.toml"
+hash = "c6ba6167148bf67b4a89cabe3afe5746386d267260e9a9b63486ecc62ac091e7"
+
+[[files]]
+file = "config/cristellib/minecraftED.json5"
+hash = "8e01cc9b7e46f74fd60ce36d3459628b8198cb988051ae52f14cda36ef0fd869"
+
+[[files]]
+file = "config/cristellib/minecraftP.json5"
+hash = "8fe09b83f2fe6bf9d547e99b8d883aef42bf3d9e2e6f5bd43ec3fcd4c7f756da"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "8509149b8a6b163fe0a88240946e3df69dff141c0000cf73a3abc33a77520cc0"
+
+[[files]]
+file = "config/fml.toml"
+hash = "6f866fa7b8d9e2a2e449a46b78ae649e1d0e74c5b8d3e02b7c8460cdfce7d2de"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "a44700892dba38c6edbcce1c57eba6dbfff3406cfb1c6200d422349bf09bae46"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "72824bc693558aaab4cd6a67cb775ad838073b705517a41c557bf8281bfd3a06"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "7d28c4d588b796dae777a26e645652d5d161deb30db69528b6038ae9b2f5aa54"
+
+[[files]]
+file = "config/letmedespawn.json"
+hash = "3daa62159d430b28044aa44a40274a4e209ab756bfc7f038b3f02e0b1a8f2850"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "97df335f5441898585deb63d73d9340885496dcba7655b933df2fcf7236af7b1"
+
+[[files]]
+file = "config/sodium-extra-options.json"
+hash = "41a915dc6b7cf72a575e040c4433d705b22eeb33021991d2256bac2e50db477f"
+
+[[files]]
+file = "config/spark/activity.json"
+hash = "9d29fd21735ceea9feb35edb57c1437610f5505995e774d825566248badb3c08"
+
+[[files]]
+file = "config/spark/config.json"
+hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "8c9265f70a829f15771c748f6a89fef07ef8d89677c78a51d61c977ea8f856e7"
 metafile = true
@@ -961,5 +1017,9 @@ hash = "3664bd4082d2852e252fcf094f0d82f4e20b3adb3d9f894c46be6a316e397971"
 metafile = true
 
 [[files]]
+file = "patchset.md"
+hash = "249067315bb6b377eb944d800b3a3b329e396d9c8b937de81cd8330e4e684697"
+
+[[files]]
 file = "readme.md"
-hash = "e7b7ee40db9429e8b2308e9ada6362dd336fe875aded848c3b5cea6a8de3832e"
+hash = "b47d59a6eb0bec85842755f4631c2a6fe0dbf6f44c5a0739a172fb799643fc55"

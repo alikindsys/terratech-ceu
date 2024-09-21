@@ -1,0 +1,72 @@
+Changeset da Branch `baseline`
+---
+- Remover configs desnecessárias (Mods Inexistentes):
+	- ChickenChunks.cfg (Chicken Chunks)
+	- NoChatReports/**.json (No Chat Reports)
+	- Obscuria/**
+	- ars_creo-common.toml
+	- ars_elemental-client.toml
+	- ars_elemental-common.toml
+	- ars_elemental/**.toml
+	- ars_nouveau-client.toml
+	- ars_nouveau-common.toml
+	- ars_nouveau-server.toml
+	- ars_nouveau/**.toml
+	- bloodmagic-client.toml
+	- bloodmagic-common.toml
+	- brandon3055/**.json
+	- chiselandbits-client.toml
+	- chiselandbits-common.toml
+	- citadel-common.toml
+	- corgilib/**.json\*
+	- cucumber-client.toml
+	- cucumber-common.toml
+	- cucumber-tags.toml
+	- doubledoors.json5
+	- flib.toml
+	- forbidden_arcanus-client.toml
+	- forbidden_arcanus-common.toml
+	- gravestone-client.toml
+	- insanelib-common.toml
+	- libraryferret_1.properties
+	- necronomicon.json5
+	- performant-common.toml
+	- tomeofblood/**.toml
+	- twilightforest-client.toml
+	- twilightforest-common.toml
+	- twilighttweaks-common.toml
+	- wizards_reborn-client.toml
+	- wizards_reborn-common.toml
+	- ysns/**.json5
+
+- Remover configs desnecessárias (Configs Syncam com o Servidor):
+	- Mekanism/**.toml
+
+- Remover configs desnecessárias (Necessitam serem re-geradas por cada jogador):
+	- craftpresence.json
+	- embeddium-fingerprint.json
+
+- Remover configs que foram re-ordenadas mas os valores são idênticos à config padrão:
+	- badmobs-common.toml
+	- everycomp-entries.toml
+	- everycomp-hazardous.properties
+	- ftbxmodcompat.snbt
+	- ironchests/defaults.properties
+	- packetfixer.properties
+	- sophisticatedcore-common.toml
+	- towns_and_towers/**.json5
+
+---
+Lista de configs alteradas:
+- biomesoplenty/biome_toggles.json \[OK]
+- create-client.toml \[OK]
+- cristellib/**.json \[OK]
+- embeddium-options.json \[OK]
+- fml.toml \[OK]
+- jade/sort-order.json \[OK]
+- jei/ingredient-list-mod-sort-order.ini \[OK]
+- jei/recipe-category-sort-order.ini \[OK]
+- letmedespawn.json \[OK]
+- quark-common.toml \[OK]
+- sodium-extra-options.json \[OK]
+- spark/**.json \[OK]

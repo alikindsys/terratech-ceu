@@ -10,6 +10,8 @@ Esta branch não possui nenhuma alteração do modpack oficial e se manterá atu
 
 Considere essa branch uma versão **"não-oficial"** de distribuição do modpack que gera um modpack idêntico¹ ao modpack providenciado pelo servidor.
 
+Veja as alterações feitas ao modpack oficial nos [Patchset](patchset.md)s.
+
 
 > [!IMPORTANT]
 > Esta branch minifica as configurações do jogo, mantendo apenas arquivos de config que foram modificados.  

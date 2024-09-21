@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "NotJustAnna",
+      "uniqueId": "f072a353-662c-4a94-adcc-6ffb1ef826f7"
+    },
+    "time": 1726143085782,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fMIhhRF3fC"
+    }
+  }
+]
