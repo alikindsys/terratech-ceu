@@ -1,0 +1,13 @@
+name = "Specialised Cells"
+filename = "specialised_cells-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/xAoWVETt/versions/G0OghRvN/specialised_cells-1.0.0.jar"
+hash-format = "sha1"
+hash = "9ac4eff5f53a10af17b55f17f3e8cd5e8bab2597"
+
+[update]
+[update.modrinth]
+mod-id = "xAoWVETt"
+version = "G0OghRvN"

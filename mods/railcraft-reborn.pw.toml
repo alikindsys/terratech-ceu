@@ -1,0 +1,13 @@
+name = "Railcraft Reborn"
+filename = "railcraft-reborn-1.20.1-1.1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rO6kKst6/versions/PSD2Ivb1/railcraft-reborn-1.20.1-1.1.7.jar"
+hash-format = "sha1"
+hash = "1846ad4eaaa4cab2c49c6766e57d066dfdc68a15"
+
+[update]
+[update.modrinth]
+mod-id = "rO6kKst6"
+version = "PSD2Ivb1"
