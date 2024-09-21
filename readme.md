@@ -29,17 +29,3 @@ Considere essa branch uma versão **"não-oficial"** de distribuição do modpac
 > As versões (modificadas ou não) do CEu não possuem nenhum suporte aos jogadores. **Não importune a NotJustAnna por causa dessa "versão" do modpack**. Você está sozinho. Isso deve ser utilizado por usuários **muito avançados** ou aqueles que gostam de mecher em coisas e vê-las quebrarem.
 
 ---
-
-Changeset:
-
-`01-Remove-Clumps.patch` - Remove o mod "Clumps" do Client, visto que ele [**só é necessário no servidor**](https://modrinth.com/mod/clumps/).
-`02-Replace-PingHud.patch` - Troca o mod "PingHud" pelo "Better Ping Display \[Forge\]". (Não sabo se vai dar bom, pq o mod tá com `BOTH` apesar de ser um single mixin mod em algo q claramente é client-sided. Q port mal feito pqp.)
-`03-Remove-Terralith.patch` - Remove o mod "Terralith" do Client, visto que na real ele é um datapack, e não é necessário para entrar no servidor. (Se o forge deixar.)
-`04-Remove-AcceleratedDecay.patch`- Remove o mod "Accelerated Decay", visto que em teoria ele não é necessário para entrar no servidor. (Se o gorge deixar.)
-`05-Replace-Farsight.patch` - Troca o mod "farsight" pelo "Distant Horizons"
-
-
-Ideias:
----
-
-- Pegar absolutamente **todo mod feito por "someaddon"** e encontrar algum replacement open source. Eu não duvido q a vida desse cara é fazer repackage de mod open source. Não tem como alguem manter tanto mod e todos serem ARR.
