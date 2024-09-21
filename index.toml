@@ -136,6 +136,11 @@ hash = "1b7c49374b0a87723138d12ef15d1d8374787e012cc6de6dd58a68602664ff2a"
 metafile = true
 
 [[files]]
+file = "mods/ccc-brigde.pw.toml"
+hash = "18a1548719ea6a9f8e91c9a38427879c27f19caf11a0527e75565f82a5430272"
+metafile = true
+
+[[files]]
 file = "mods/cccbridge-mc1.20.1-forge-1.6.3.jar"
 hash = "d2ba248bf55eec0ddb4dcf66d901265e7d83f9601b67aec4487418b096f47181"
 

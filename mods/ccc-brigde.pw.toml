@@ -1,0 +1,7 @@
+name = "ccc-brigde"
+filename = "cccbridge-mc1.20.1-forge-1.6.3.jar"
+
+[download]
+url = "https://github.com/alikindsys/terratech-ceu/releases/download/deps-cccbridge/cccbridge-mc1.20.1-forge-1.6.3.jar"
+hash-format = "sha256"
+hash = "d2ba248bf55eec0ddb4dcf66d901265e7d83f9601b67aec4487418b096f47181"
