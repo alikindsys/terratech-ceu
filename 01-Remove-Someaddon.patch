@@ -1,0 +1,313 @@
+diff --git a/index.toml b/index.toml
+index a812f5c..1e27ed8 100644
+--- a/index.toml
++++ b/index.toml
+@@ -136,16 +136,6 @@ file = "mods/balm.pw.toml"
+ hash = "be8e217053e3e0bc0179a62beaa1f8e29e22b1cdc2cb0d56bd9836ce5e6dea3b"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/better-chunk-loading-forge-fabric.pw.toml"
+-hash = "79a3fb06122208f61eede6e34a4ed3ea15107cd89ebcbfd8afc2903a6fa01a8a"
+-metafile = true
+-
+-[[files]]
+-file = "mods/better-fps-render-distance.pw.toml"
+-hash = "70cb54081f56a748b298a87d1825bac70405d4b4a28c4a4f18228691930baa34"
+-metafile = true
+-
+ [[files]]
+ file = "mods/better-fusion-reactor-for-mekanism.pw.toml"
+ hash = "05654e3ba1291529e288e5e2025e8e07b22af7b096d5cd97b37267a0111fa2f7"
+@@ -211,11 +201,6 @@ file = "mods/chunk-loaders.pw.toml"
+ hash = "d1d6ff2b3749a159e309433d774a85b485a1d72931363cd181192bfb95b85c44"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/clickable-advancements.pw.toml"
+-hash = "588807da8d9fcf5b9670a0b9804d8a3c400a4985b23e8aa7368f4e7c6e721f80"
+-metafile = true
+-
+ [[files]]
+ file = "mods/cloth-config.pw.toml"
+ hash = "5ac32407263c973bebc5aee61fe000d29d9879020fafb6631581396b64e55dfe"
+@@ -316,11 +301,6 @@ file = "mods/cristel-lib.pw.toml"
+ hash = "f99d86319f474bc75585c6cba1927f868846f91ab87ce8dcfe936b3462412296"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/cupboard.pw.toml"
+-hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
+-metafile = true
+-
+ [[files]]
+ file = "mods/curios.pw.toml"
+ hash = "ef744ef9850c42a100e7ba88527b7bc486079f43c0e5234162df25391a2197a3"
+@@ -406,16 +386,6 @@ file = "mods/every-compat.pw.toml"
+ hash = "44d54775db333c9f73b29052bb824061485932bd7f322fa030c6e9c8549270db"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/farsight.pw.toml"
+-hash = "0edc2b9d68e308c820489f8bb378f1eb540ba684ac23be242fcc4655f05ff423"
+-metafile = true
+-
+-[[files]]
+-file = "mods/fast-async-world-save-forge-fabric.pw.toml"
+-hash = "96b4f076531d93845801037766543ef06c7c07cb631f7f24db06c2a3296bfaa0"
+-metafile = true
+-
+ [[files]]
+ file = "mods/female-gender.pw.toml"
+ hash = "74146465d158af800f797dd8470f971c6c2b3f8bfdca3ab49bcaf224a61f546b"
+@@ -541,11 +511,6 @@ file = "mods/kotlin-for-forge.pw.toml"
+ hash = "82ffc26ad624cdd846cbbeb99ed40ef44229ec7006a7ae7e8caa8df6409c20db"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/leaky.pw.toml"
+-hash = "636782e1ca59054f196895cbe26218365960dafebb6b3d8f018320847271674a"
+-metafile = true
+-
+ [[files]]
+ file = "mods/let-sleeping-dogs-lie.pw.toml"
+ hash = "fd323c9e7b3b0cc32babdc0310eb9cc785a1bd7876017208e41866d7c91df22c"
+@@ -561,11 +526,6 @@ file = "mods/lmd.pw.toml"
+ hash = "e95e338b86bd8bd7ee373260e9096b7fa1346695bc65f220f4107fb0e15221ea"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/loot-integrations.pw.toml"
+-hash = "d9eb4b00cb9dbf32c6ab202bcfaac537d1846c8a2bc97d50ad8bfb49e06e42bb"
+-metafile = true
+-
+ [[files]]
+ file = "mods/max-health-fix.pw.toml"
+ hash = "cca706c9aa0e52dce5194093214082779add0efa8e2e8ef119b5ab3232032449"
+@@ -816,11 +776,6 @@ file = "mods/rechiseled.pw.toml"
+ hash = "95cb627d4f6ac64e0482ad359f0fb9cfa0c1abe248370d61bc2a520d2b8c665c"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/recipe-essentials-forge-fabric.pw.toml"
+-hash = "6a30514da0ab75c8cf96a2b3be3f4a667d0496cea73bd4ca321b5de09bcc28af"
+-metafile = true
+-
+ [[files]]
+ file = "mods/resourceful-config.pw.toml"
+ hash = "92b0bc142a7cbc4af73ec922b72e9ab6f7b41cedc35a7dbbd49bbc3d66f88fcc"
+@@ -856,11 +811,6 @@ file = "mods/runelic.pw.toml"
+ hash = "61ce4ba81f3903ab9d2c27f7fa073f800f9480d910d3022e1701bfcdbb0ad6dd"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/savage-ender-dragon.pw.toml"
+-hash = "844ccf23ba21f56bc5ddc4f64afdf3bcf8b6b29f6066b5520311aee96b59b339"
+-metafile = true
+-
+ [[files]]
+ file = "mods/searchables.pw.toml"
+ hash = "35905f57cdb21a2aaa26345f2fabe3137ee2db6ee3bb2149cea206611b11ef69"
+diff --git a/mods/better-chunk-loading-forge-fabric.pw.toml b/mods/better-chunk-loading-forge-fabric.pw.toml
+deleted file mode 100644
+index 926eddf..0000000
+--- a/mods/better-chunk-loading-forge-fabric.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Better chunk loading[Forge/Fabric]"
+-filename = "betterchunkloading-1.20.1-4.3.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "e39efb5c0e89ea07fa3c75a0c89549aa9529564c"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5393775
+-project-id = 899487
+diff --git a/mods/better-fps-render-distance.pw.toml b/mods/better-fps-render-distance.pw.toml
+deleted file mode 100644
+index 01fc4e9..0000000
+--- a/mods/better-fps-render-distance.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Better Fps - Render Distance[Forge]"
+-filename = "betterfpsdist-1.20.1-4.4.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "7e06fc293f9f4202c6d25782ae6345d0f133eb56"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5333766
+-project-id = 551520
+diff --git a/mods/clickable-advancements.pw.toml b/mods/clickable-advancements.pw.toml
+deleted file mode 100644
+index cb9d75b..0000000
+--- a/mods/clickable-advancements.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Clickable advancements[Forge/Fabric]"
+-filename = "clickadv-1.20.1-3.8.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "a348e4418676ed8b1ffea6c54755f1ee8656f559"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5293987
+-project-id = 511733
+diff --git a/mods/cupboard.pw.toml b/mods/cupboard.pw.toml
+deleted file mode 100644
+index 2160f6c..0000000
+--- a/mods/cupboard.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Cupboard"
+-filename = "cupboard-1.20.1-2.7.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "204bc8aa83e8a685f64311b72d55505ab2eca867"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5470032
+-project-id = 326652
+diff --git a/mods/farsight.pw.toml b/mods/farsight.pw.toml
+deleted file mode 100644
+index 574e374..0000000
+--- a/mods/farsight.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Farsight [Forge/Neo]"
+-filename = "farsight-1.20.1-3.7.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "c124558a7f6a7560944600c0f64a5e433d95cc4c"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5531397
+-project-id = 495693
+diff --git a/mods/fast-async-world-save-forge-fabric.pw.toml b/mods/fast-async-world-save-forge-fabric.pw.toml
+deleted file mode 100644
+index e3618b7..0000000
+--- a/mods/fast-async-world-save-forge-fabric.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Fast Async World Save[Forge/Fabric]"
+-filename = "fastasyncworldsave-1.20.1-2.0.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "3731eac6308d6fdb2dcdf0acf26446c0e5128790"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5218101
+-project-id = 951499
+diff --git a/mods/leaky.pw.toml b/mods/leaky.pw.toml
+deleted file mode 100644
+index 3077fe9..0000000
+--- a/mods/leaky.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Leaky - Item Lag Fix[Forge/Fabric]"
+-filename = "leaky-1.20.1-2.1.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "0a206404d460cf46eb6ce3360fbb4235156b418b"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5340919
+-project-id = 856906
+diff --git a/mods/loot-integrations.pw.toml b/mods/loot-integrations.pw.toml
+deleted file mode 100644
+index 3fa4d10..0000000
+--- a/mods/loot-integrations.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Loot Integrations[Forge/Fabric]"
+-filename = "lootintegrations-1.20.1-3.7.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "c7ac66a7acadf8a12015944ae697b322ddab8828"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5349559
+-project-id = 580689
+diff --git a/mods/recipe-essentials-forge-fabric.pw.toml b/mods/recipe-essentials-forge-fabric.pw.toml
+deleted file mode 100644
+index f866da3..0000000
+--- a/mods/recipe-essentials-forge-fabric.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Recipe Essentials[Forge/Fabric]"
+-filename = "recipeessentials-1.20.1-3.6.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "65eb0d1447c9e96bac7c8f24fb73998f45c0da14"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5581360
+-project-id = 907856
+diff --git a/mods/savage-ender-dragon.pw.toml b/mods/savage-ender-dragon.pw.toml
+deleted file mode 100644
+index 1a1b2fa..0000000
+--- a/mods/savage-ender-dragon.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Savage Ender Dragon[Forge/Fabric]"
+-filename = "dragonfight-1.20.1-4.6.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "8eea2b3f3f1012670ce11d198b039306f47655ca"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 5560802
+-project-id = 523327
+diff --git a/pack.toml b/pack.toml
+index 2133b64..14970e6 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "e9165c2223b0559539aed20e702764a1c589a8bd4f4bb5d7dcbf27d1196a69a6"
++hash = "081a6545bbf66734382c0878f5673fe4c608189a17ffa6d039c2b4c3665ef654"
+ 
+ [versions]
+ minecraft = "1.20.1"
