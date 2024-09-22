@@ -1,0 +1,8 @@
+Patches da branch `ceu`
+---
+
+`01-Remove-Someaddon` - Remove todos os mods do Someaddon. A grande maioria deles funciona só server-side e os mods de "otimização" são incompatíveis com mods de otimização open-source (Died 2022 - Born 2024, Welcome back OptiFine).  
+`02-Add-EMI` - Adiciona o EMI como mod de itemlist.
+`03-Remove-Accelerated-Decay` - Esse mod não toca nada no `net.minecraft.client` ou em código de renderização nem em eventos client-side, sendo relativamente safe de ser removido do client.
+`04-Replace-PingHud` - Troca o PingHud pelo [Better Ping Display](https://modrinth.com/mod/better-ping-display).
+``
