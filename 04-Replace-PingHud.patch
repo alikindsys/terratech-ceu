@@ -1,0 +1,79 @@
+diff --git a/index.toml b/index.toml
+index f5b4e7a..fb3ead7 100644
+--- a/index.toml
++++ b/index.toml
+@@ -136,6 +136,11 @@ file = "mods/better-fusion-reactor-for-mekanism.pw.toml"
+ hash = "05654e3ba1291529e288e5e2025e8e07b22af7b096d5cd97b37267a0111fa2f7"
+ metafile = true
+ 
++[[files]]
++file = "mods/better-ping-display.pw.toml"
++hash = "71d9fa13271f1c96b9c00f8a52b5d370134053bcd1d26223362e9970d1358e10"
++metafile = true
++
+ [[files]]
+ file = "mods/biomes-o-plenty.pw.toml"
+ hash = "33e828c63a098d971fb2b98cfa0f90bf96337d3a254afdc863463f4d62b57781"
+@@ -676,11 +681,6 @@ file = "mods/pig-pen-cipher.pw.toml"
+ hash = "86d1f26a7ae6210d216a1af25759b07986f71bf6deeed02b4ce651204502773c"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/pinghud.pw.toml"
+-hash = "8b2590cfd14a6d4309e083df734d881fb51c6561355a799f390f4faa68b542a0"
+-metafile = true
+-
+ [[files]]
+ file = "mods/placebo.pw.toml"
+ hash = "0f807372e11d5a8a28266ab214fd243fa7558fe3f5a0cc6505090faede8c2dd6"
+diff --git a/mods/better-ping-display.pw.toml b/mods/better-ping-display.pw.toml
+new file mode 100644
+index 0000000..0c6f320
+--- /dev/null
++++ b/mods/better-ping-display.pw.toml
+@@ -0,0 +1,13 @@
++name = "Better Ping Display [Forge]"
++filename = "BetterPingDisplay-1.20.1-1.1.jar"
++side = "client"
++
++[download]
++url = "https://cdn.modrinth.com/data/ZvaHbwoZ/versions/jXuIS25Y/BetterPingDisplay-1.20.1-1.1.jar"
++hash-format = "sha1"
++hash = "6347a5bff9405c59ec7d428e5e24115f5b17a90b"
++
++[update]
++[update.modrinth]
++mod-id = "ZvaHbwoZ"
++version = "jXuIS25Y"
+diff --git a/mods/pinghud.pw.toml b/mods/pinghud.pw.toml
+deleted file mode 100644
+index 6d1a2ed..0000000
+--- a/mods/pinghud.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "PingHUD"
+-filename = "PingHUD-3.0.jar"
+-side = "both"
+-
+-[download]
+-hash-format = "sha1"
+-hash = "29508ed0b564a6c511e21e99cb1bbb80490bb9f9"
+-mode = "metadata:curseforge"
+-
+-[update]
+-[update.curseforge]
+-file-id = 4597420
+-project-id = 664124
+diff --git a/pack.toml b/pack.toml
+index 12c6c7d..39e5688 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "94143f2c4ec36a39d331cbfe25a13d4487bb16e84f38a77a88b09142a61a612f"
++hash = "9a700e55684eb123c596eb0900f6cd33ab33427c19becfadf8f3861ad005d2a7"
+ 
+ [versions]
+ minecraft = "1.20.1"
