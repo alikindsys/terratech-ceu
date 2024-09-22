@@ -5,4 +5,5 @@ Patches da branch `ceu`
 `02-Add-EMI` - Adiciona o EMI como mod de itemlist.
 `03-Remove-Accelerated-Decay` - Esse mod não toca nada no `net.minecraft.client` ou em código de renderização nem em eventos client-side, sendo relativamente safe de ser removido do client.
 `04-Replace-PingHud` - Troca o PingHud pelo [Better Ping Display](https://modrinth.com/mod/better-ping-display).
+`05-Rebrand` - Troca o nome do modpack de "TerraTech CEu - Baseline" para "TerraTech - CEu"
 ``
