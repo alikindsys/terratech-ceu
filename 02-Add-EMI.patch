@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index 1e27ed8..f237b0b 100644
+--- a/index.toml
++++ b/index.toml
+@@ -351,6 +351,11 @@ file = "mods/embeddium.pw.toml"
+ hash = "2a4e32365b962f7857d6003af7abee398a92919a5b3ddcd2a51ab9359b80865a"
+ metafile = true
+ 
++[[files]]
++file = "mods/emi.pw.toml"
++hash = "4deb157ac258fa0cd27b36fe66307ade1f44abfc3dcf4b1507b4fb507f41e807"
++metafile = true
++
+ [[files]]
+ file = "mods/enchantment-descriptions.pw.toml"
+ hash = "3a105970fd48f4875257539af811e7b132a3c49a2f34380794913ca12cf7e777"
+diff --git a/mods/emi.pw.toml b/mods/emi.pw.toml
+new file mode 100644
+index 0000000..0b4a88d
+--- /dev/null
++++ b/mods/emi.pw.toml
+@@ -0,0 +1,13 @@
++name = "EMI"
++filename = "emi-1.1.13+1.20.1+forge.jar"
++side = "both"
++
++[download]
++url = "https://cdn.modrinth.com/data/fRiHVvU7/versions/9BeUhlBt/emi-1.1.13%2B1.20.1%2Bforge.jar"
++hash-format = "sha1"
++hash = "914170e531accbdb08e5a1c757d7bfdc3201b40c"
++
++[update]
++[update.modrinth]
++mod-id = "fRiHVvU7"
++version = "9BeUhlBt"
+diff --git a/pack.toml b/pack.toml
+index 14970e6..bb71417 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "081a6545bbf66734382c0878f5673fe4c608189a17ffa6d039c2b4c3665ef654"
++hash = "272e981c8218254dbf5b99589fdc02658d4b149b38033aa81e669eb4ed4c3379"
+ 
+ [versions]
+ minecraft = "1.20.1"
