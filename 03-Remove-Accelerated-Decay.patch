@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index f237b0b..f5b4e7a 100644
+--- a/index.toml
++++ b/index.toml
+@@ -56,11 +56,6 @@ hash = "9d29fd21735ceea9feb35edb57c1437610f5505995e774d825566248badb3c08"
+ file = "config/spark/config.json"
+ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+ 
+-[[files]]
+-file = "mods/accelerated-decay.pw.toml"
+-hash = "8c9265f70a829f15771c748f6a89fef07ef8d89677c78a51d61c977ea8f856e7"
+-metafile = true
+-
+ [[files]]
+ file = "mods/additional-lanterns.pw.toml"
+ hash = "e6a180ebb5b058ee15766422e6630b5aee7d10b3f33e4fd3ec8291b5d8e646b3"
+diff --git a/mods/accelerated-decay.pw.toml b/mods/accelerated-decay.pw.toml
+deleted file mode 100644
+index 917a591..0000000
+--- a/mods/accelerated-decay.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Accelerated Decay"
+-filename = "accelerated-decay-forge-3.0.1+mc1.20.1.jar"
+-side = "both"
+-
+-[download]
+-url = "https://cdn.modrinth.com/data/laX5CckD/versions/z90zP9qg/accelerated-decay-forge-3.0.1%2Bmc1.20.1.jar"
+-hash-format = "sha1"
+-hash = "89c85950e991cac0d8a17c46ac8fdc221acc0bd7"
+-
+-[update]
+-[update.modrinth]
+-mod-id = "laX5CckD"
+-version = "z90zP9qg"
+diff --git a/pack.toml b/pack.toml
+index bb71417..12c6c7d 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "272e981c8218254dbf5b99589fdc02658d4b149b38033aa81e669eb4ed4c3379"
++hash = "94143f2c4ec36a39d331cbfe25a13d4487bb16e84f38a77a88b09142a61a612f"
+ 
+ [versions]
+ minecraft = "1.20.1"
