@@ -1,0 +1,79 @@
+diff --git a/index.toml b/index.toml
+index 3b62bb3..30230cb 100644
+--- a/index.toml
++++ b/index.toml
+@@ -426,6 +426,11 @@ file = "mods/fusion-connected-textures.pw.toml"
+ hash = "1d49ff9d4f8f52975e51893b36fdddd4ec7a09e17d46664272ed27f62940980c"
+ metafile = true
+ 
++[[files]]
++file = "mods/fzzy-config.pw.toml"
++hash = "94a82d6eb4ab6a5cf9995fe780bdc36ae3b76bf962872197992e2bc2d70fdc27"
++metafile = true
++
+ [[files]]
+ file = "mods/gamemenumodoption.pw.toml"
+ hash = "bb798676e1a411b30830b4ffc87b45e583ea1b6d6cd80e8f6ed5315da1eaca4d"
+@@ -671,6 +676,11 @@ file = "mods/packet-fixer.pw.toml"
+ hash = "28c4f7857f82a6196ca44d3ee66b2d93cda47990e9d1feae82297a0cf0d2c717"
+ metafile = true
+ 
++[[files]]
++file = "mods/particle-core.pw.toml"
++hash = "ae1d4ae12713ca95bb4260a3c0e32f2df2c702e39d5ea514311d68ee4f49b7ad"
++metafile = true
++
+ [[files]]
+ file = "mods/patchouli.pw.toml"
+ hash = "4d0b66ba4cb3c2965bf961d4bb991babb6a60f8a20709d1e295ed7fc8b6d8929"
+diff --git a/mods/fzzy-config.pw.toml b/mods/fzzy-config.pw.toml
+new file mode 100644
+index 0000000..920e569
+--- /dev/null
++++ b/mods/fzzy-config.pw.toml
+@@ -0,0 +1,13 @@
++name = "Fzzy Config"
++filename = "fzzy_config-0.4.3+1.20.1+forge.jar"
++side = "both"
++
++[download]
++url = "https://cdn.modrinth.com/data/hYykXjDp/versions/N15JppaX/fzzy_config-0.4.3%2B1.20.1%2Bforge.jar"
++hash-format = "sha1"
++hash = "5dba02636bda2746e62162690bf762b2c73184de"
++
++[update]
++[update.modrinth]
++mod-id = "hYykXjDp"
++version = "N15JppaX"
+diff --git a/mods/particle-core.pw.toml b/mods/particle-core.pw.toml
+new file mode 100644
+index 0000000..45dffbd
+--- /dev/null
++++ b/mods/particle-core.pw.toml
+@@ -0,0 +1,13 @@
++name = "Particle Core"
++filename = "particle_core-0.2.5+1.20.1+forge.jar"
++side = "client"
++
++[download]
++url = "https://cdn.modrinth.com/data/RSeLon5O/versions/2pgXWmty/particle_core-0.2.5%2B1.20.1%2Bforge.jar"
++hash-format = "sha1"
++hash = "d791c2000b0985bdef906db93b9313319ac47aba"
++
++[update]
++[update.modrinth]
++mod-id = "RSeLon5O"
++version = "2pgXWmty"
+diff --git a/pack.toml b/pack.toml
+index 4fd94ba..64f5f8f 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "6bc49f02293c0db9a457ff8857b7cadf757396ae0e2699735cd3af9cc5e6b837"
++hash = "123d64b1d49fa15ae4382aaddaadbae44a61fc6b5c61f1e463602597c6ca034c"
+ 
+ [versions]
+ minecraft = "1.20.1"

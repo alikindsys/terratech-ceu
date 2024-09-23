@@ -8,4 +8,4 @@ Patches da branch `ceu`
 `05-Rebrand` - Troca o nome do modpack de "TerraTech CEu - Baseline" para "TerraTech - CEu"  
 `06-Remove-Clumps` - O mod é server-side only apartir da 1.17  
 `07-Add-Badoptimizations` - Adiciona um mod de otimização q tira as toasts do jogo e otimiza atualização da lightmap  
-``
+`08-Add-ParticleCore` - Adiciona um mod de otimização de particulas  
