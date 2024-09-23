@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index 8291b48..9eac5b2 100644
+--- a/index.toml
++++ b/index.toml
+@@ -206,11 +206,6 @@ file = "mods/cloth-config.pw.toml"
+ hash = "5ac32407263c973bebc5aee61fe000d29d9879020fafb6631581396b64e55dfe"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/clumps.pw.toml"
+-hash = "ee0ac54b8c79f1fc489fd6514a972e15b4a9b35617905c35667d011638431cd9"
+-metafile = true
+-
+ [[files]]
+ file = "mods/codechicken-lib.pw.toml"
+ hash = "c011cedf1f29b16895af2f6bb513f0914380d5a24ac53cf84c5bc530d007c16c"
+diff --git a/mods/clumps.pw.toml b/mods/clumps.pw.toml
+deleted file mode 100644
+index 1929b6d..0000000
+--- a/mods/clumps.pw.toml
++++ /dev/null
+@@ -1,13 +0,0 @@
+-name = "Clumps"
+-filename = "Clumps-forge-1.20.1-12.0.0.2.jar"
+-side = "both"
+-
+-[download]
+-url = "https://cdn.modrinth.com/data/Wnxd13zP/versions/4AR5fMpn/Clumps-forge-1.20.1-12.0.0.2.jar"
+-hash-format = "sha1"
+-hash = "548c4ce89ea1e8113291a289704961a301db8950"
+-
+-[update]
+-[update.modrinth]
+-mod-id = "Wnxd13zP"
+-version = "4AR5fMpn"
+diff --git a/pack.toml b/pack.toml
+index 49e3127..beb898f 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "8d73b6bf3bcd08414cbfc7b1b8575ed98e3633d33abf5f17f0a8e9873e274df2"
++hash = "c8ebd4f63ad8e6d7307fe3a098661acc0b71cf450cae5b51fe3b958bb2fc067b"
+ 
+ [versions]
+ minecraft = "1.20.1"
