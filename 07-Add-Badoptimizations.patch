@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index 9eac5b2..3b62bb3 100644
+--- a/index.toml
++++ b/index.toml
+@@ -126,6 +126,11 @@ file = "mods/bad-wither-no-cookie.pw.toml"
+ hash = "943bd83f41b472ed7b4dd4236c826bd8f36983c32e3e7841b9ceca4d01531d53"
+ metafile = true
+ 
++[[files]]
++file = "mods/badoptimizations.pw.toml"
++hash = "1596f0056944116fc58e9294ede2ecf069f11241ab57836b3096c57a008e67b3"
++metafile = true
++
+ [[files]]
+ file = "mods/balm.pw.toml"
+ hash = "be8e217053e3e0bc0179a62beaa1f8e29e22b1cdc2cb0d56bd9836ce5e6dea3b"
+diff --git a/mods/badoptimizations.pw.toml b/mods/badoptimizations.pw.toml
+new file mode 100644
+index 0000000..638f2b6
+--- /dev/null
++++ b/mods/badoptimizations.pw.toml
+@@ -0,0 +1,13 @@
++name = "BadOptimizations"
++filename = "BadOptimizations-2.1.4-1.20.1.jar"
++side = "client"
++
++[download]
++url = "https://cdn.modrinth.com/data/g96Z4WVZ/versions/GydKiUd0/BadOptimizations-2.1.4-1.20.1.jar"
++hash-format = "sha1"
++hash = "29c7689d1c4645a902115e1faa4991c47007b7a5"
++
++[update]
++[update.modrinth]
++mod-id = "g96Z4WVZ"
++version = "GydKiUd0"
+diff --git a/pack.toml b/pack.toml
+index beb898f..4fd94ba 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "c8ebd4f63ad8e6d7307fe3a098661acc0b71cf450cae5b51fe3b958bb2fc067b"
++hash = "6bc49f02293c0db9a457ff8857b7cadf757396ae0e2699735cd3af9cc5e6b837"
+ 
+ [versions]
+ minecraft = "1.20.1"
