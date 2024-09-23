@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index 30230cb..de1e86e 100644
+--- a/index.toml
++++ b/index.toml
+@@ -786,6 +786,11 @@ file = "mods/rechiseled.pw.toml"
+ hash = "95cb627d4f6ac64e0482ad359f0fb9cfa0c1abe248370d61bc2a520d2b8c665c"
+ metafile = true
+ 
++[[files]]
++file = "mods/redirector.pw.toml"
++hash = "aa7cfb1a828fc186fff465c224ec395461e1d1a40bfd5a45ff130090ae258aff"
++metafile = true
++
+ [[files]]
+ file = "mods/resourceful-config.pw.toml"
+ hash = "92b0bc142a7cbc4af73ec922b72e9ab6f7b41cedc35a7dbbd49bbc3d66f88fcc"
+diff --git a/mods/redirector.pw.toml b/mods/redirector.pw.toml
+new file mode 100644
+index 0000000..6ec2a25
+--- /dev/null
++++ b/mods/redirector.pw.toml
+@@ -0,0 +1,13 @@
++name = "Redirector"
++filename = "redirector-5.0.0.jar"
++side = "both"
++
++[download]
++url = "https://cdn.modrinth.com/data/nzRWPE5v/versions/vnotZ9tN/redirector-5.0.0.jar"
++hash-format = "sha1"
++hash = "0b246b2648a2e463f243852fdd1ef8c2931da19c"
++
++[update]
++[update.modrinth]
++mod-id = "nzRWPE5v"
++version = "vnotZ9tN"
+diff --git a/pack.toml b/pack.toml
+index 64f5f8f..0e13b25 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "123d64b1d49fa15ae4382aaddaadbae44a61fc6b5c61f1e463602597c6ca034c"
++hash = "7dd90aa4c596f0f1f3b5129bdff2563f98a7d40f211a9f4d104459fe3dedcc81"
+ 
+ [versions]
+ minecraft = "1.20.1"
