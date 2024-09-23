@@ -1,0 +1,48 @@
+diff --git a/index.toml b/index.toml
+index 3655c61..7e7cf10 100644
+--- a/index.toml
++++ b/index.toml
+@@ -391,6 +391,11 @@ file = "mods/every-compat.pw.toml"
+ hash = "44d54775db333c9f73b29052bb824061485932bd7f322fa030c6e9c8549270db"
+ metafile = true
+ 
++[[files]]
++file = "mods/fast-ip-ping.pw.toml"
++hash = "e9d96d96f2118d98ca2f58d83447af2d3e0055bd8d354503fea5741048502476"
++metafile = true
++
+ [[files]]
+ file = "mods/female-gender.pw.toml"
+ hash = "74146465d158af800f797dd8470f971c6c2b3f8bfdca3ab49bcaf224a61f546b"
+diff --git a/mods/fast-ip-ping.pw.toml b/mods/fast-ip-ping.pw.toml
+new file mode 100644
+index 0000000..daea0d6
+--- /dev/null
++++ b/mods/fast-ip-ping.pw.toml
+@@ -0,0 +1,13 @@
++name = "Fast IP Ping"
++filename = "fast-ip-ping-v1.0.5-mc1.20.4-forge.jar"
++side = "client"
++
++[download]
++url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/lfk0K3KM/fast-ip-ping-v1.0.5-mc1.20.4-forge.jar"
++hash-format = "sha1"
++hash = "cba9a0f2b37706ae0486e74636049545580892fd"
++
++[update]
++[update.modrinth]
++mod-id = "9mtu0sUO"
++version = "lfk0K3KM"
+diff --git a/pack.toml b/pack.toml
+index ff5bfe8..1d939d8 100644
+--- a/pack.toml
++++ b/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "3c9ddca0889f4aa735735af18f6093020b805b5d4b96ae815be7110ea1b536fc"
++hash = "9135d9d3a16b115f410e927e17da043c7c05c4de86fd9882f2f0f0d9b117d315"
+ 
+ [versions]
+ minecraft = "1.20.1"
