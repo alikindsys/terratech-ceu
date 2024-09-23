@@ -10,4 +10,4 @@ Patches da branch `ceu`
 `07-Add-Badoptimizations` - Adiciona um mod de otimização q tira as toasts do jogo e otimiza atualização da lightmap  
 `08-Add-ParticleCore` - Adiciona um mod de otimização de particulas  
 `09-Add-Redirector` - Adiciona um mod de otimização para `Enum#values` (algo mto comum em mods forge pq expandir enum vanilla é uma excelente ideia)  
-
+`10-Fix-Watut` - Arruma um conflito de mixin entre o watut e o better ping display  
