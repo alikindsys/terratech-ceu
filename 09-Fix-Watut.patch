@@ -1,8 +1,8 @@
 diff --git a/index.toml b/index.toml
-index de1e86e..b15afd0 100644
+index 2c684af..3655c61 100644
 --- a/index.toml
 +++ b/index.toml
-@@ -973,7 +973,7 @@ metafile = true
+@@ -963,7 +963,7 @@ metafile = true
  
  [[files]]
  file = "mods/what-are-they-up-to.pw.toml"
@@ -34,15 +34,15 @@ index 628264a..e3fbea2 100644
 +hash-format = "sha256"
 +hash = "7f47cb364cb72c82a368eb9f2aab8f9c1327e3b033bf305096bdd4118f3da36c"
 diff --git a/pack.toml b/pack.toml
-index 0e13b25..cb209b2 100644
+index fdf24e9..ff5bfe8 100644
 --- a/pack.toml
 +++ b/pack.toml
 @@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
  [index]
  file = "index.toml"
  hash-format = "sha256"
--hash = "7dd90aa4c596f0f1f3b5129bdff2563f98a7d40f211a9f4d104459fe3dedcc81"
-+hash = "9ee0f6104f4a2d3d9f24c047d9df1cbf91ebde25b6253d14588016cf33ae359a"
+-hash = "ac12184a46813b8b816226c3ed16d6dc2e3dbd7aac2662d68c7a0ee942c6f5ce"
++hash = "3c9ddca0889f4aa735735af18f6093020b805b5d4b96ae815be7110ea1b536fc"
  
  [versions]
  minecraft = "1.20.1"

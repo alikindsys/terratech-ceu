@@ -1,8 +1,20 @@
+From 8b064ba4f55c6c02e86fe8b7fa3b8871632d25a3 Mon Sep 17 00:00:00 2001
+From: alikindsys <alice@blocovermelho.org>
+Date: Mon, 23 Sep 2024 13:47:04 -0300
+Subject: [PATCH] Apply 08-Add-Redirector
+
+---
+ index.toml              |  5 +++++
+ mods/redirector.pw.toml | 13 +++++++++++++
+ pack.toml               |  2 +-
+ 3 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100644 mods/redirector.pw.toml
+
 diff --git a/index.toml b/index.toml
-index 30230cb..de1e86e 100644
+index 3b62bb3..2c684af 100644
 --- a/index.toml
 +++ b/index.toml
-@@ -786,6 +786,11 @@ file = "mods/rechiseled.pw.toml"
+@@ -776,6 +776,11 @@ file = "mods/rechiseled.pw.toml"
  hash = "95cb627d4f6ac64e0482ad359f0fb9cfa0c1abe248370d61bc2a520d2b8c665c"
  metafile = true
  
@@ -34,15 +46,18 @@ index 0000000..6ec2a25
 +mod-id = "nzRWPE5v"
 +version = "vnotZ9tN"
 diff --git a/pack.toml b/pack.toml
-index 64f5f8f..0e13b25 100644
+index 4fd94ba..fdf24e9 100644
 --- a/pack.toml
 +++ b/pack.toml
 @@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
  [index]
  file = "index.toml"
  hash-format = "sha256"
--hash = "123d64b1d49fa15ae4382aaddaadbae44a61fc6b5c61f1e463602597c6ca034c"
-+hash = "7dd90aa4c596f0f1f3b5129bdff2563f98a7d40f211a9f4d104459fe3dedcc81"
+-hash = "6bc49f02293c0db9a457ff8857b7cadf757396ae0e2699735cd3af9cc5e6b837"
++hash = "ac12184a46813b8b816226c3ed16d6dc2e3dbd7aac2662d68c7a0ee942c6f5ce"
  
  [versions]
  minecraft = "1.20.1"
+-- 
+2.46.0
+
