@@ -11,3 +11,4 @@ Patches da branch `ceu`
 `09-Add-Redirector` - Adiciona um mod de otimização para `Enum#values` (algo mto comum em mods forge pq expandir enum vanilla é uma excelente ideia)  
 `09-Fix-Watut` - Arruma um conflito de mixin entre o watut e o better ping display  
 `10-Add-Fast-Ip-Ping` - Adiciona o mod Fast Ip Ping  
+`11-Add-Just-Enough-Resources` - Adiciona o mod Just Enough Resources  
